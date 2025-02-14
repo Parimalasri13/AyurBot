@@ -1,0 +1,76 @@
+
+.heading{
+    color: rgb(0, 128, 128);
+    text-align: center;
+    padding: 20px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.contribute {
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(0,128,128),rgb(34, 175, 175), rgb(0,128,128)); /* Green gradient */
+    width: 1210px;
+    height: 80px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px; /* Optional: Add some padding for better appearance */
+    color: white; /* Ensures text is visible */
+    font-weight: bold; /* Optional: Makes text stand out */
+}
+
+.contribute p{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.contribute button{
+    font-size: large;
+    background-color:white;
+    color: whitesmoke;
+    font-weight: bold;
+    border-color: rgb(64, 28, 88);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 40px;
+} 
+.contribute-form{
+    display: flex;
+    justify-content: center;
+}
+.contribute-form form{
+    border: 2px solid rgb(0, 128, 128);
+    border-radius: 10px;
+    margin: 40px;
+    background-color: rgb(35, 165, 165);
+    padding: 20px;
+}
+.contribute-form input{
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: medium;
+    border: 2px solid rgb(0, 128, 128) ;
+} 
+.cbutton{
+    padding: 10px;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid rgb(6, 135, 135);
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin-left:40%;
+    
+}

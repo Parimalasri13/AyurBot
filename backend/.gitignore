@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+env/
+*.pyc
+__pycache__/
+instance/
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Debug
+logs/
+*.log
+nohup.out
+
+# Config & Secrets
+.env
+config.json
+credentials.json
+
+# Cache & Build
+*.cache
+build/
+dist/
+*.egg-info/
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt

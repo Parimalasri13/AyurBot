@@ -1,0 +1,48 @@
+/* Reset */
+
+  
+
+  
+  /* Main */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+   
+  }
+  
+  .content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .languages {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Two columns */
+    gap: 50px;
+  }
+  
+  .languages button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #00695c;
+    border-radius: 10px;
+    color: #00695c;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .languages button:hover {
+    background-color: #00695c;
+    color: white;
+  }
+  
+  .illustration img {
+    width: 400px;
+    height: 400px;
+  }
+  

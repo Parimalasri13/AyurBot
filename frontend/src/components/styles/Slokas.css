@@ -1,0 +1,250 @@
+
+
+.myths-box {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.myths-imge {
+    height: 454px;
+}
+
+.myths-img {
+    width: 450px;
+    height: 454px;
+}
+
+.myths-form {
+    border: 2px solid rgb(0,128,128);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.myths-form p {
+    width: 400px;
+    margin: 33px 0px;
+}
+
+.myths-start {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0,128,128);
+}
+
+.myths-end {
+    font-size: medium;
+}
+
+.myths-input {
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    margin: 6px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(0,128,128);
+}
+
+.myths-input[type="submit"] {
+    background-color: rgb(0,128,128);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.myths-bhavam {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.myths-para {
+    border: 2px solid rgb(0,128,128);
+    border-radius: 15px;
+    width: 650px;
+    padding: 40px;
+}
+
+.myths-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.myths-actions img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.myths-container {
+    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    width: 1200px;
+    margin-left: 30px;
+    border-color: rgb(0,128,128);
+
+}
+
+.myths-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.myths-text-input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.myths-textarea {
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0,128,128);
+    resize: none;
+    font-size: 14px;
+    font-family: inherit;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.myths-from-text {
+    width: 450px;
+    height: 250px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border-color: rgb(0,128,128);
+    
+}
+
+.myths-to-text {
+    width: 450px;
+    height: 250px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border-color: rgb(0,128,128);
+}
+
+.myths-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.myths-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.myths-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.myths-icons i {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.myths-icons i:hover {
+    color: #007bff;
+}
+
+.myths-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.myths-exchange {
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.myths-exchange:hover {
+    color: #0056b3;
+}
+
+.myths-button1 {
+    width: 30%;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(0,128,128);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.myths-button1:hover {
+    background-color: rgb(65, 152, 152);
+}
+
+.myths-controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.myths-controls .myths-row .myths-icons {
+    width: 38%;
+}
+
+.myths-controls .myths-row .myths-icons i {
+    width: 50px;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    justify-content: center;
+}
+
+.myths-controls .myths-row.from .myths-icons {
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.myths-controls .myths-row.to .myths-icons {
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+
+.myths-controls .myths-row select {
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 5px;
+}
+
+
+.myths-volume-up-translated {
+    margin-left: 10px; /* Adjust margin as needed */
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    cursor: pointer;
+  }

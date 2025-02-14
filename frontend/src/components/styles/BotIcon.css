@@ -1,0 +1,21 @@
+.bot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.bot-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Optional: makes the bot icon circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.bot-icon img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
