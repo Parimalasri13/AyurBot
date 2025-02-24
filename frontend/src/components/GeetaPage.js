@@ -43,7 +43,7 @@ const GeetaPage = () => {
         {/* Krishna Image */}
         <div className="image-container">
           <img
-            src="./assets/krish.jpg"
+            src="./assets/image1.png"
             alt="Lord Krishna"
             className="krishna-image"
           />
